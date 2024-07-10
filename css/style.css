@@ -2,6 +2,7 @@
 /* -------- General CSS -------- */
 /* ============================= */
 
+/* Styling for the body element */
 body {
     color: #666666;
     font-family: 'Open Sans', sans-serif;
@@ -9,11 +10,13 @@ body {
     background: #ffffff;
 }
 
+/* Default styling for links */
 a {
     color: #AF9483;
     transition: 0.5s;
 }
 
+/* Styling for link hover, active, and focus states */
 a:hover,
 a:active,
 a:focus {
@@ -22,11 +25,13 @@ a:focus {
     text-decoration: none;
 }
 
+/* Styling for paragraph elements */
 p {
     padding: 0;
     margin: 0 0 15px 0;
 }
 
+/* Styling for header elements (h1-h6) */
 h1,
 h2,
 h3,
